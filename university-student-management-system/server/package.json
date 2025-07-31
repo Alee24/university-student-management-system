@@ -1,0 +1,25 @@
+{
+  "name": "university-student-management-system-server",
+  "version": "1.0.0",
+  "description": "Back‑end for the University Student Management System",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.16.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
